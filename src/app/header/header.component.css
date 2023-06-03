@@ -1,0 +1,84 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.nav h1 {
+    color: blueviolet;
+    font-size: 40px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top:15px;
+    /* padding-top: 1%; */
+    
+}
+.nav li{
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 0;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:blueviolet;
+    cursor: pointer;
+}
+.nav .nav-search{
+    width: 150px;
+    flex: 1;
+    display: flex;
+    padding-left: 4%;
+    padding-right: 0%;
+}
+
+.nav .nav-search input{
+    flex: 1;
+    color:blueviolet;
+    border:1px solid blueviolet;
+    height: 35px;
+    border-right: 0;
+}
+.nav .nav-search button{
+   
+    color:blueviolet;
+    border:1px solid blueviolet;
+    height: 35px;
+    border-left: 0;
+}
+.nav .nav-search button:hover{
+   
+    background-color:rgb(161, 114, 204);
+    color:white;
+    border: 1px solid black;
+ 
+}
+
+.suggest-result{
+    position:absolute;
+    display: list-item !important;
+    z-index: 1;
+    background-color: #fff;
+    width: 300px;
+    top: 35px;
+    border: 1px solid #ddd;
+    margin: 0;
+}
+.suggest-result li{
+    width: 100%;
+    border:1px solid #ddd;
+    padding: 5px;
+     
+}
+.suggest-result li a{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+
+

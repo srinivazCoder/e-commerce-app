@@ -1,0 +1,23 @@
+table{
+    text-align: left;
+    color:blueviolet;
+    border-collapse: collapse;
+    
+}
+table td, table th{
+    border: 1px solid blueviolet;
+    min-height: 160px;
+    padding: 10px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.product-list>h1{
+    color:blueviolet;
+    text-align: center;
+}
+.adjust-update-link{
+    margin: 10px;
+}

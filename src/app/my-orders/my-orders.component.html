@@ -1,0 +1,43 @@
+<div class="my-orders" *ngIf="orderData">
+    <h1>My orders</h1>
+    <div class="row">
+        <div class="col-sm-2">
+            <span>order</span>
+        </div>
+        <div class="col-sm-2">
+            <span>orderId</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Price</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Status</span>
+        </div>
+        <div class="col-sm-2">
+            <span>Action</span>
+        </div>
+    </div>
+
+    <div class="row order-data" *ngFor="let item of orderData">
+        <div class="col-sm-2">
+            <img class="order-img" src="https://cdn.shopify.com/app-store/listing_images/2b9bba2ab61edabc6d836f14f9377671/icon/CL-Lhc30lu8CEAE=.png" alt="">
+        </div>
+        <div class="col-sm-2">
+            <span>#{{item.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{item.totalPrice}}/-</span>
+        </div>
+        <div class="col-sm-2">
+            <span> In Process</span>
+        </div>
+        <div class="col-sm-2">
+            <span><button class="form-button" (click)="cancelOrder(item.id)">Cancle order</button></span>
+        </div>
+    </div>
+
+
+</div>
+<div *ngIf="!orderData">   
+    <h1>You have no Orders Please order</h1>
+</div>

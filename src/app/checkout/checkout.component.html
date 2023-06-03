@@ -1,0 +1,39 @@
+<div class="checkout">
+    <h1>Checkout</h1>
+    <p class="p_message">{{orderMessage}}</p>
+    <div class="row">
+        <div class="col-sm-7 shipping-address">
+            <h3>Add shipping Address</h3>
+            <form #orderData="ngForm" class="common-form" (ngSubmit)="orderNow(orderData.value)">
+                <input 
+                class="form-input" 
+                type="text" 
+                placeholder="Enter email" 
+                name="email" 
+                ngModel
+                />
+                <input 
+                class="form-input" 
+                type="text" 
+                placeholder="Enter address" 
+                name="address" 
+                ngModel
+                />
+                <input 
+                class="form-input" 
+                type="number" 
+                placeholder="Enter Contact" 
+                name="Contact" 
+                ngModel
+                />
+
+                <button class="form-button" type="submit">Order Now</button>
+                
+            </form>
+        </div>
+        <div class="col-sm-5">
+            <h3>Total Amount : ₹{{totalPrice}}/-</h3>
+            <h4>Payment method: <b>Pay on Delivery</b></h4>
+        </div>
+    </div>
+</div>

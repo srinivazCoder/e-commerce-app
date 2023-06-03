@@ -1,0 +1,270 @@
+{
+  "seller": [
+    {
+      "name": "Anil sindhu",
+      "email": "Anil@gmail.com",
+      "password": "passw0rd",
+      "id": 1
+    },
+    {
+      "name": "Srinivas chaligeri",
+      "email": "Srinivas@gmail.com",
+      "password": "passw0rd",
+      "id": 2
+    },
+    {
+      "name": "ram",
+      "password": "passw0rd",
+      "email": "ram@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Srinivas chaligeri",
+      "email": "Srinivas@gmail.com",
+      "password": "passw0rd",
+      "id": 4
+    },
+    {
+      "name": "sita",
+      "password": "passw0rd",
+      "email": "sita@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "ram",
+      "password": "passw0rd",
+      "email": "swam@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "peter",
+      "password": "passw0rd",
+      "email": "peter@gmail.com",
+      "id": 7
+    }
+  ],
+  "Products": [
+    {
+      "name": "HP",
+      "price": "20000",
+      "color": "white",
+      "catagory": "Belong to Laptop selection",
+      "description": "4gb Ram and 2tb Rom",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664418078/Croma%20Assets/Computers%20Peripherals/Laptop/Images/257161_0_hvgepf.png/mxw_2048,f_auto",
+      "id": 1
+    },
+    {
+      "name": "Red me",
+      "price": "15000",
+      "color": "Green",
+      "catagory": "Mobile",
+      "description": "16RAM and 2TB ROM",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1658741131/Croma%20Assets/Communication/Mobiles/Images/258912_aub1km.png/mxw_2048,f_auto",
+      "id": 2
+    },
+    {
+      "name": "Vivo",
+      "price": "12000",
+      "color": "red",
+      "catagory": "Mobile",
+      "description": "its 4gb RAM and 64Gb internal with 28px camera",
+      "image": "https://cdn1.smartprix.com/rx-iC0bjxcpF-w1200-h1200/C0bjxcpF.jpg",
+      "id": 3
+    },
+    {
+      "name": "Nike",
+      "price": "1000",
+      "color": "Black",
+      "catagory": "Shoes",
+      "description": "new added shoes",
+      "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "id": 4
+    },
+    {
+      "name": "HRX",
+      "price": "1500",
+      "color": "Red",
+      "catagory": "Shoes",
+      "description": "new shoes are added",
+      "image": "https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "id": 5
+    },
+    {
+      "name": "Smart Watch",
+      "price": "2000",
+      "color": "green",
+      "catagory": "Watches",
+      "description": "boAt Strom smartWatch",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1bca7fb9-5f5c-42e3-930a-8a430d8a9e60_600x.png?v=1625046217",
+      "id": 6
+    },
+    {
+      "name": "Smart Watch",
+      "price": "2000",
+      "color": "pink",
+      "catagory": "Watches",
+      "description": "The boAt Watch Xtend is the perfect companion for your fitness transformation ",
+      "image": "https://m.media-amazon.com/images/I/61gscZYmaoL._SX522_.jpg",
+      "id": 7
+    },
+    {
+      "name": "Truck",
+      "price": "200",
+      "color": "blue",
+      "catagory": "Vehicle",
+      "description": "Brand: Centy Toys\nFun for the young truck lovers the centy public truck toy not only serves as a brilliant collectible",
+      "image": "https://m.media-amazon.com/images/I/61u+NKkFnmL._SL1000_.jpg",
+      "id": 8
+    },
+    {
+      "name": "Villain",
+      "price": "299",
+      "color": "Black",
+      "catagory": "Perfume",
+      "description": "new luxury perfume villain",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/61LL68H0ymL._AC._SR360,460.jpg",
+      "id": 9
+    },
+    {
+      "name": "Head Phone",
+      "price": "2999",
+      "color": "Black",
+      "catagory": "head phones",
+      "description": "head phones from the boAt company",
+      "image": "https://m.media-amazon.com/images/I/51xxA+6E+xL._SL1500_.jpg",
+      "id": 10
+    },
+    {
+      "name": "Nike ",
+      "price": "2999",
+      "color": "brown",
+      "catagory": "Shoes",
+      "description": "Nike new shoes and good product",
+      "image": "https://static.nike.com/a/images/t_default/i1-e31cd3f4-4af2-49a2-a841-2ccb7d42c1f7/air-zoom-pegasus-37-mens-road-running-shoes-KLvDcj.png",
+      "id": 11
+    },
+    {
+      "name": "woodland",
+      "price": "1500",
+      "color": "yellow",
+      "catagory": "Sandles",
+      "description": "sandal will effortlessly pulverize the urban terrains that you regularly tread. ",
+      "image": "https://m.media-amazon.com/images/I/81vNPclAqiL._UX695_.jpg",
+      "id": 12
+    }
+  ],
+  "users": [
+    {
+      "name": "peter",
+      "email": "peter@gmail.com",
+      "password": "passw0rd",
+      "id": 1
+    },
+    {
+      "name": "ram",
+      "email": "ram@text.com",
+      "password": "passw0rd",
+      "id": 2
+    },
+    {
+      "name": "sita",
+      "email": "sita@gmail.com",
+      "password": "passw0rd",
+      "id": 3
+    },
+    {
+      "name": "ramesh",
+      "email": "ramesh@gmail.com",
+      "password": "passw0rd",
+      "id": 4
+    },
+    {
+      "name": "sinu",
+      "email": "sinu@gmail.com",
+      "password": "passw0rd",
+      "id": 5
+    },
+    {
+      "name": "basava",
+      "email": "basava@gmail.com",
+      "password": "passw0rd",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "Smart Watch",
+      "price": "2000",
+      "color": "green",
+      "catagory": "Watches",
+      "description": "boAt Strom smartWatch",
+      "image": "https://cdn.shopify.com/s/files/1/0057/8938/4802/products/1bca7fb9-5f5c-42e3-930a-8a430d8a9e60_600x.png?v=1625046217",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 6,
+      "id": 1
+    },
+    {
+      "name": "HP",
+      "price": "20000",
+      "color": "white",
+      "catagory": "Belong to Laptop selection",
+      "description": "4gb Ram and 2tb Rom",
+      "image": "https://d2d22nphq0yz8t.cloudfront.net/88e6cc4b-eaa1-4053-af65-563d88ba8b26/https://media.croma.com/image/upload/v1664418078/Croma%20Assets/Computers%20Peripherals/Laptop/Images/257161_0_hvgepf.png/mxw_2048,f_auto",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 1,
+      "id": 2
+    }
+  ],
+  "orders": [
+    {
+      "email": "ramesh@gmail.com",
+      "address": "benglore",
+      "Contact": 9999,
+      "totalPrice": 25599,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "peter@gmail.com",
+      "address": "benglore",
+      "Contact": 12121,
+      "totalPrice": 25599,
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "email": "peter@gmail.com",
+      "address": "benglore",
+      "Contact": 1234,
+      "totalPrice": 37599,
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "email": "peter@gmail.com",
+      "address": "benglore",
+      "Contact": 6666,
+      "totalPrice": 15100,
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "email": "basava",
+      "address": "basava@gmail.com",
+      "Contact": 1000,
+      "totalPrice": 15100,
+      "userId": 6,
+      "id": 7
+    },
+    {
+      "email": "ram@gmail.com",
+      "address": "benglore",
+      "Contact": 122,
+      "totalPrice": 16100,
+      "userId": 2,
+      "id": 8
+    }
+  ]
+}

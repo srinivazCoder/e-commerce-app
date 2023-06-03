@@ -1,0 +1,20 @@
+.sign-up{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+    color: blueviolet;
+}
+.sign-up>.way-sign{
+  padding: 20px;
+    
+}
+
+#show{
+    
+    cursor: pointer;
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+

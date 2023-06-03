@@ -1,0 +1,18 @@
+.user-auth h1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+.user-auth{
+    margin-bottom: 50px;
+}
+#Showlog{
+    padding-top: 15px;
+    color:blueviolet;
+    text-align: center;
+}
+#Showlog a{
+    cursor: pointer;
+    text-decoration: underline rgb(250, 119, 119);
+}
